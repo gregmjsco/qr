@@ -19,7 +19,15 @@
   
 
   <div class="qr__wrapper">
-    <img class="qr__img" src="images/image-qr-code.png" alt="qr code for frontend mentor">
+    <picture class="qr__img"
+        ><source
+          srcset="../images/image-qr-code.png"
+          media="(min-width: 23.4375rem)" />
+        <img
+          src="../images/image-qr-code-mobile.png"
+          alt="frontendmentor.io"
+          class="qr_image"
+      /></picture>
     <h2 class="qr__heading">Improve your front-end skills by building projects</h2>
     <p class="qr__text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
